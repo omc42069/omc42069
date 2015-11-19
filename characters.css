@@ -1,0 +1,65 @@
+body {
+    background: url("bg.png") fixed;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+nav{
+    clear: both;
+    background-color: deeppink;
+    padding: 3px 0;
+    width: 100%;
+    display: table;
+    margin-top: 5px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+nav ul{
+    list-style: none;
+    display: table-row;
+}
+
+nav ul li{
+    color: white;
+    margin: 0 30px;
+    text-align: center;
+    display: table-cell;
+    width: 17%;
+    padding: 0px 10px;
+}
+
+nav a:link{
+    color: purple;
+    text-decoration: none;
+}
+
+nav a:visited{
+    color: purple;
+}
+
+nav a:hover{
+    color: purple;
+}
+
+nav a:active{
+    color: purple;
+}
+
+#characters{
+    clear: both;
+    background-color: deeppink;
+    padding: 3px 0;
+    display: table;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-radius: 25px;
+    border: 2px solid black;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+table{
+    margin-left:auto; 
+    margin-right:auto;
+}
